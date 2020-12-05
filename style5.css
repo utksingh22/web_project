@@ -1,0 +1,77 @@
+body{
+    font-family: "montserat",sans-serif;
+    line-height: 1.5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#background{
+    position: relative;
+    height: 100vh;
+    background-image: url(pexels-photo-302804.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.main-content{
+    color:aliceblue;
+    padding-left: 40%;
+    margin-top:10%;
+    border: none;
+    opacity: 1;
+    
+}
+.desing-form{
+    position: absolute;
+    border: 2px solid aliceblue;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    margin-top:10px;
+    padding: 35px;
+    transform: (-50% -50%);
+    background:linear-gradient(rgba(136, 241, 14, 0.753),rgba(51,104,20,0.575));
+}
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+}
+.loginbox{
+    height: 25px;
+    width: 200px;
+    background-color: lightblue;
+    text-transform:lowercase;
+    color: blue;
+}
+
+.login{
+    border-radius: 50px;
+    width: 230px;
+    height: 30px;
+    padding:auto;
+    background-color:orangered;
+    color:aliceblue;
+    cursor: pointer;
+}
+.login a{
+    display:block;
+    text-decoration: none;
+    color:aliceblue;
+    margin-top: 1.5px;
+
+}
+@media (max-width:570px){
+    .main-content{
+        padding-left:3.5%;
+        margin-top:50%;
+    }   
+}
+@media (min-width:360px) and (max-width:823px){
+    .main-content{
+        padding-left:11%;
+    }
+}
